@@ -5,9 +5,10 @@
 [node name="MainScene" type="Node2D"]
 
 [node name="ColorRect" type="ColorRect" parent="."]
-margin_right = 321.0
+margin_right = 320.0
 margin_bottom = 639.0
 __meta__ = {
+"_edit_lock_": true,
 "_edit_use_anchors_": false
 }
 
@@ -20,5 +21,49 @@ custom_styles/normal = SubResource( 1 )
 custom_colors/font_color = Color( 0.247059, 0.0313726, 0.0313726, 1 )
 text = "Tic Tac Toe EX"
 __meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PlayMatNode" type="Node2D" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="PlayMatNode"]
+margin_left = 100.0
+margin_top = 60.0
+margin_right = 110.0
+margin_bottom = 380.0
+color = Color( 0.376471, 0.0352941, 0.0352941, 1 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect2" type="ColorRect" parent="PlayMatNode"]
+margin_left = 210.0
+margin_top = 60.0
+margin_right = 220.0
+margin_bottom = 380.0
+color = Color( 0.376471, 0.0352941, 0.0352941, 1 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect3" type="ColorRect" parent="PlayMatNode"]
+margin_top = 160.0
+margin_right = 320.0
+margin_bottom = 170.0
+color = Color( 0.376471, 0.0352941, 0.0352941, 1 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect4" type="ColorRect" parent="PlayMatNode"]
+margin_top = 270.0
+margin_right = 320.0
+margin_bottom = 280.0
+color = Color( 0.376471, 0.0352941, 0.0352941, 1 )
+__meta__ = {
+"_edit_group_": true,
 "_edit_use_anchors_": false
 }
